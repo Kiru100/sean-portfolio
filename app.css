@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
-
-
 *{
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
 
 body{
     font-family: 'Lato', sans-serif;
@@ -54,18 +51,21 @@ body{
     color: rgb(74, 182, 181);
 }
 
-#options a.active{
-  
+#options a.active, #options a:hover{
     color: rgb(39, 91, 80) ;
 }
-
 
 
 .title{
     padding:5em 0;
     display: flex;
+    flex-direction: column;
+}
+
+.title .container{
+    flex-direction: column;
     justify-content: center;
-  
+    align-items: center;
 }
 
 .title p{
